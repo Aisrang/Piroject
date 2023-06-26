@@ -1,120 +1,66 @@
-body{
- background:linear-gradient(109.6deg, rgba(119, 44, 232, 0.68) 11.5%, rgb(119, 44, 232) 91.2%);
+body {
+  background-color: #EECF93;
+  ;
 }
 
-.nav{
+.nav {
   font-family: Inter;
-}
-
-.logo{
-  display: inline-flex;
-  font-size:1.7rem;
-  letter-spacing: 0.1rem;
-  color:whitesmoke;
-  padding-left:3rem;
   font-weight: bold;
 }
 
-.nav-right{
+.logo {
   display: inline-flex;
-  float:right;
-  column-gap: 3rem;
-  padding-top: 1.5rem;
-  padding-right: 4rem;
-}
-
-.home-btn{
-  border:none;
-  background:none;
-  color:white;
-  font-size:1.3rem;
-  transition:0.2s;
+  font-size: 3.3rem;
   letter-spacing: 0.1rem;
+  color: black;
+  padding-left: 7rem;
+  padding-top: 1.3rem;
 }
 
-.home-btn:hover{
-  cursor:pointer;
-  text-decoration: underline;
-  color:rgb(237, 223, 223)
+.nav-right {
+  font-size: 2rem;
+  display: inline-flex;
+  float: right;
+  column-gap: 4rem;
+  padding-top: 4rem;
+  padding-right: 7rem;
 }
 
-.home-btn:active{
-  color:rgb(208, 201, 201);
-}
-
-.nav-btn1{
+.nav-btn {
+  color: #A2353A;
+  text-decoration: none;
   letter-spacing: 0.1rem;
-  font-size:1.2rem;
-  border:none;
-  padding-right:1rem;
-  padding-left:1rem;
-  padding-top:0.5rem;
-  padding-bottom:0.5rem;
-  background-color: white;
-  color:rgba(119, 44, 232, 0.68);
-  font-weight: bold;
-  border-radius:5rem;
-  border-width:0.1px;
   transition: 0.2s;
 }
 
-.nav-btn1:hover{
-  cursor:pointer;
-  opacity:0.8;
+.nav-btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
 }
 
-.nav-btn1:active{
-  opacity:0.5;
+.nav-btn:active {
+  opacity: 0.5;
 }
 
-.nav-btn2{
+.desc{
+  display: inline-flex;
+  font-family: Inter;
+  font-size:2rem;
   letter-spacing: 0.1rem;
-  font-size:1.2rem;
-  border:none;
-  padding-right:1rem;
-  padding-left:1.2rem;
-  padding-top:0.5rem;
-  padding-bottom:0.5rem;
-  background-color: rgb(235, 122, 141);
-  color:white;
-  font-weight: bold;
-  border-radius:5rem;
-  border-width:0.1px;
-  transition: 0.2s;
+  padding-left: 7rem;
+  padding-top:11rem;
+  word-spacing: 0.5rem;
 }
-
-.nav-btn2:hover{
-  cursor:pointer;
-  opacity:0.8;
-}
-
-.nav-btn2:active{
-  opacity:0.5;
-}
-
 
 .img{
   display: inline-flex;
-  float: right;
-  text-align: right;
-  padding-right:5rem;
+  float:right;
+  position: absolute;
+  bottom: 1px;
+  right: 1px;
 }
 
-.img-1{
-  padding-top:5rem;
-  padding-right:5rem;
-  width:40rem;
+.img1{
+  height:50rem;
+  width:50rem;
 }
-
-.txt{
-  letter-spacing: 0.3rem;
-  color:white;
-  display: inline-flex;
-  font-family:Inter;
-  font-size:2rem;
-  padding-top:15rem;
-  padding-left:5rem;
-}
-
-
-
